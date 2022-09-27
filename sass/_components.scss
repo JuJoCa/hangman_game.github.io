@@ -1,0 +1,40 @@
+$color-main: #03519f;
+$color-shadow: #3193f4;
+$color-trans: #d8ebff5f;
+$color-text: white;
+
+.btn-main {
+    border: 1px solid $color-main;
+    border-bottom: 8px solid #02305e;
+    background-color: $color-main;
+    border-radius: 15px;
+    padding: 1.2rem 3rem;
+    max-width: 15.6rem;
+    color: $color-text;
+    font-size: 1.125rem;
+    font-weight: 600;
+
+    &:hover {
+        box-shadow: 0 0 10px $color-shadow;
+        background-color: $color-trans;
+        color: $color-main;
+        border-bottom: 8px solid $color-main;
+        transition: all 350ms;
+    }
+}
+
+.btn-sec {
+    border: 1px solid $color-main;
+    border-radius: 15px;
+    padding: 0.7rem 1.5rem;
+    max-width: 13rem;
+    color: $color-main;
+    background-color: $color-trans;
+    font-size: 0.8rem;
+    font-weight: 600;
+    
+    &:hover {
+        box-shadow: 0 0 10px $color-shadow;
+        transition: box-shadow 350ms;
+    }
+}
